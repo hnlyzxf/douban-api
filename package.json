@@ -1,0 +1,33 @@
+{
+  "name": "douban-api",
+  "version": "1.0.0",
+  "description": "豆瓣API服务 - 基于豆瓣移动端API获取影视热门榜单数据",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "douban",
+    "api",
+    "movies",
+    "tv",
+    "ranking",
+    "mobile-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.3",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
