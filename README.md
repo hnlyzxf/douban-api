@@ -173,7 +173,7 @@ curl "http://localhost:3000/api/douban/tv/drama/动画"
 GET /api/douban/movie/recent_hot
 ```
 
-#### 通用剧集接口
+#### 通用电视接口
 ```
 GET /api/douban/tv/recent_hot
 ```
@@ -184,7 +184,7 @@ GET /api/douban/tv/recent_hot
 GET /api/douban/movie/categories
 ```
 
-#### 获取剧集类别列表
+#### 获取电视类别列表
 ```
 GET /api/douban/tv/categories
 ```
