@@ -39,7 +39,7 @@
 - 韩国：`/api/douban/movie/underrated/韩国`
 - 日本：`/api/douban/movie/underrated/日本`
 
-### 剧集榜单
+### 电视榜单
 #### 最近热门剧集
 - 综合：`/api/douban/tv/drama/综合`
 - 国产剧：`/api/douban/tv/drama/国产剧`
