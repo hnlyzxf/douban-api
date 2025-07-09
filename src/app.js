@@ -80,7 +80,7 @@ app.get('/', (req, res) => {
     },
     legacy_endpoints: {
       '通用电影接口': '/api/douban/movie/recent_hot?category=热门&type=全部',
-      '通用剧集接口': '/api/douban/tv/recent_hot?category=tv&type=tv'
+      '通用电视接口': '/api/douban/tv/recent_hot?category=tv&type=tv'
     },
     documentation: 'https://github.com/x1ao4/douban-api'
   });
