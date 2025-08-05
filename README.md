@@ -60,7 +60,7 @@
 version: "3.8"
 services:
   douban-api:
-    image: x1ao4/douban-api:latest
+    image: hnlyzxf/douban-api:latest
     container_name: douban-api
     ports:
       - 3000:3000
@@ -70,10 +70,10 @@ services:
 ### Docker Run
 ```bash
 docker run -d \
-  -p 3000:3000 \
+  -p 4000:4000 \
   --name douban-api \
   --restart unless-stopped \
-  x1ao4/douban-api:latest
+  hnlyzxf/douban-api:latest
 ```
 
 ## API 文档
@@ -208,8 +208,8 @@ GET /
 项目支持通过 `.env` 文件配置环境变量（可选）：
 
 ```bash
-# 服务端口（默认：3000）
-PORT=3000
+# 服务端口（默认：4000）
+PORT=4000
 ```
 
 ## 注意事项
@@ -221,4 +221,3 @@ PORT=3000
 ## 赞赏
 如果你觉得这个项目对你有用，可以考虑请我喝杯咖啡或者给我一个⭐️。谢谢你的支持！
 
-<img width="383" alt="赞赏" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
