@@ -22,11 +22,11 @@ RUN chown -R douban:nodejs /app
 USER douban
 
 # 暴露端口
-EXPOSE 3000
+EXPOSE 4000
 
 # 健康检查
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:3000/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"
+  CMD node -e "require('http').get('http://localhost:4000/health', (res) => { process.exit(res.statusCode === 200 ? 0 : 1) })"
 
 # 启动应用
 CMD ["node", "src/app.js"]
